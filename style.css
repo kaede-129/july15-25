@@ -1,0 +1,17 @@
+.b1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(188, 147, 226);
+}
+
+/*マウスがオーバーしたら色が変わる*/
+.b1:hover {
+    background-color: rgb(210, 240, 103);
+    transition: 1s all; /*1秒かけて色を変える*/
+}
+
+.b1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
